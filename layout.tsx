@@ -1,2 +1,0 @@
-import Link from 'next/link';
-export default function AdminLayout({children}:{children:React.ReactNode}){return <div className="admin-shell"><div className="admin-top"><Link className="brand" href="/admin"><span className="brand-mark">⌂</span><span>MYHOME FINDER<small>ADMIN WORKSPACE</small></span></Link><Link className="button outline" href="/">← View website</Link></div><nav className="admin-nav"><Link href="/admin">Dashboard</Link><Link href="/admin/properties/new">+ Add property</Link><Link href="/admin/enquiries">Enquiries</Link></nav>{children}</div>}
